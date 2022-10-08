@@ -1,0 +1,53 @@
+/* Variables - Start */
+:root {
+  /* Colors - Primary*/
+  --Pink: hsl(322, 100%, 66%);
+  /* Colors - Secondary */
+  --Very-Pale-Cyan: hsl(193, 100%, 96%);
+  --Very-Dark-Cyan: hsl(192, 100%, 9%);
+  --Grayish-Blue: hsl(208, 11%, 55%);
+  /* Font Size */
+  --Font-Size: 18px;
+  /* Font Family Headings */
+  --Poppins: "Poppins", sans-serif;
+  /* Font Family Body */
+  --Open-Sans: "Open Sans", sans-serif;
+}
+/* Variables - End */
+/* Global Rules - Start */
+-webkit-box-sizing: border-box;
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+  transition: 0.5s;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  /* 400 - 700 */
+  font-family: "Poppins", sans-serif;
+  /* 600 */
+  display: grid;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--Cream);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* Const - Start */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Const - End */
+/* Global Rules - End */
